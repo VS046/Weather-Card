@@ -69,7 +69,7 @@ const Weather = () => {
     search("New York");
   }, []);
 
-  //if (!weatherData) return <p>Loading...</p>;
+  
 
   return (
     <div className="weather">
@@ -102,28 +102,7 @@ const Weather = () => {
         </div>
       </div></>:<></>}
 
-      {/* <img src={weatherData.icon} alt="weather" className="weather-icon" />
-
-      <p className="temperature">{weatherData.temperature}°C</p>
-      <p className="location">{weatherData.location}</p>
-
-      <div className="weather-data">
-        <div className="col">
-          <img src={humidity_icon} alt="humidity" />
-          <div>
-            <p>{weatherData.humidity}%</p>
-            <span>Humidity</span>
-          </div>
-        </div>
-
-        <div className="col">
-          <img src={wind_icon} alt="wind" />
-          <div>
-            <p>{weatherData.windSpeed} km/h</p>
-            <span>Wind Speed</span>
-          </div>
-        </div>
-      </div> */}
+      
     </div>
   );
 };
